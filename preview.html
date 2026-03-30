@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eat Healthy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4fff4;
+        }
+
+        header {
+            background-color: #2ecc71;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: url('https://images.unsplash.com/photo-1498837167922-ddd27525d352') no-repeat center/cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .btn {
+            background-color: #27ae60;
+            padding: 12px 25px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #2ecc71;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Eat Healthy</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Fresh. Healthy. Delivered.</h2>
+    <p>Your daily dose of nutrition starts here!</p>
+    <button class="btn">Order Now</button>
+</section>
+
+<section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Meal Plans</h3>
+            <p>Customized healthy meal plans for your lifestyle.</p>
+        </div>
+        <div class="card">
+            <h3>Home Delivery</h3>
+            <p>Fresh meals delivered straight to your door.</p>
+        </div>
+        <div class="card">
+            <h3>Nutrition Advice</h3>
+            <p>Expert tips to keep you fit and healthy.</p>
+        </div>
+    </div>
+</section>
+
+<section id="menu" class="section">
+    <h2>Popular Dishes</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Green Salad</h3>
+            <p>Fresh veggies with healthy dressing.</p>
+        </div>
+        <div class="card">
+            <h3>Protein Bowl</h3>
+            <p>High-protein meal for fitness lovers.</p>
+        </div>
+        <div class="card">
+            <h3>Fruit Smoothie</h3>
+            <p>Refreshing and nutritious drinks.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: eathealthy@email.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 Eat Healthy | Stay Fit, Stay Happy</p>
+</footer>
+
+</body>
+</html>
